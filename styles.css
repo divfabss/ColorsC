@@ -1,0 +1,47 @@
+body {
+    font-family: 'Lilita One', cursive;
+    margin: 0;
+    padding: 0;
+  }
+h1{
+    text-align: center;
+  }
+h1 span {
+    color: #0b7ef1;
+ }
+span::selection {
+      background-color: #0f4479;
+      color: white;
+}
+.table-container {
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 16px;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+  
+th {
+    background-color: #f2f2f2;
+}
+  
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+  
+  /* Estilos para el color en la última columna */
+tbody td:last-child {
+    width: 30px;
+    height: 30px;
+}
+  /* Agrega más estilos según tus preferencias */
+  
